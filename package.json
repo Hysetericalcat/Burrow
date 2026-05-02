@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "dev": "bun packages/tcp-server/server.ts",
+    "dev": "bun /Users/chromeblood/burrow/packages/server/server.ts",
+    "dev1":"bun /Users/chromeblood/burrow/packages/server/tcp-server.ts",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types"
